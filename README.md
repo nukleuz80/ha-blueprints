@@ -1,0 +1,2 @@
+# ha-blueprints
+HomeAssistant Blueprints
