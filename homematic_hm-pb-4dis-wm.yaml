@@ -1,0 +1,492 @@
+blueprint:
+  name: HomeMatic - HM-PB-4DIS-WM - Display Switch
+  description: "Automate your HomeMatic Display Switch - HM-PB-4DIS-WM"
+  domain: automation
+  
+  input:
+    hm_name_string:
+      name: HomeMatic - Display Switch Name
+      description: "The given name of the Display Switch in HomeMatic CCU"
+      default: "Display Switch Name in CCU"
+      
+    channel_01_short_press:
+      name: Channel 01 (Switch - SHORT_PRESS 01)
+      description: Action to run when Display Switch is pressed short on Channel 01
+      default: []
+      selector:
+        action: {}
+    channel_02_short_press:
+      name: Channel 02 (Switch - SHORT_PRESS 01)
+      description: Action to run when Display Switch is pressed short on Channel 02
+      default: []
+      selector:
+        action: {}  
+
+    channel_03_short_press:
+      name: Channel 03 (Switch - SHORT_PRESS 02)
+      description: Action to run when Display Switch is pressed short on Channel 03
+      default: []
+      selector:
+        action: {}
+    channel_04_short_press:
+      name: Channel 04 (Switch - SHORT_PRESS 02)
+      description: Action to run when Display Switch is pressed short on Channel 04
+      default: []
+      selector:
+        action: {} 
+        
+    channel_05_short_press:
+      name: Channel 05 (Switch - SHORT_PRESS 03)
+      description: Action to run when Display Switch is pressed short on Channel 05
+      default: []
+      selector:
+        action: {}
+    channel_06_short_press:
+      name: Channel 06 (Switch - SHORT_PRESS 03)
+      description: Action to run when Display Switch is pressed short on Channel 06
+      default: []
+      selector:
+        action: {}        
+
+    channel_07_short_press:
+      name: Channel 07 (Switch - SHORT_PRESS 04)
+      description: Action to run when Display Switch is pressed short on Channel 07
+      default: []
+      selector:
+        action: {}
+    channel_08_short_press:
+      name: Channel 08 (Switch - SHORT_PRESS 04)
+      description: Action to run when Display Switch is pressed short on Channel 08
+      default: []
+      selector:
+        action: {}
+
+    channel_09_short_press:
+      name: Channel 09 (Switch - SHORT_PRESS 05)
+      description: Action to run when Display Switch is pressed short on Channel 09
+      default: []
+      selector:
+        action: {}
+    channel_10_short_press:
+      name: Channel 10 (Switch - SHORT_PRESS 05)
+      description: Action to run when Display Switch is pressed short on Channel 10
+      default: []
+      selector:
+        action: {}
+
+    channel_11_short_press:
+      name: Channel 11 (Switch - SHORT_PRESS 06)
+      description: Action to run when Display Switch is pressed short on Channel 11
+      default: []
+      selector:
+        action: {}
+    channel_12_short_press:
+      name: Channel 12 (Switch - SHORT_PRESS 06)
+      description: Action to run when Display Switch is pressed short on Channel 12
+      default: []
+      selector:
+        action: {}  
+
+    channel_13_short_press:
+      name: Channel 13 (Switch - SHORT_PRESS 07)
+      description: Action to run when Display Switch is pressed short on Channel 13
+      default: []
+      selector:
+        action: {}
+    channel_14_short_press:
+      name: Channel 14 (Switch - SHORT_PRESS 07)
+      description: Action to run when Display Switch is pressed short on Channel 14
+      default: []
+      selector:
+        action: {} 
+        
+    channel_15_short_press:
+      name: Channel 15 (Switch - SHORT_PRESS 08)
+      description: Action to run when Display Switch is pressed short on Channel 15
+      default: []
+      selector:
+        action: {}
+    channel_16_short_press:
+      name: Channel 16 (Switch - SHORT_PRESS 08)
+      description: Action to run when Display Switch is pressed short on Channel 16
+      default: []
+      selector:
+        action: {}        
+
+    channel_17_short_press:
+      name: Channel 17 (Switch - SHORT_PRESS 09)
+      description: Action to run when Display Switch is pressed short on Channel 17
+      default: []
+      selector:
+        action: {}
+    channel_18_short_press:
+      name: Channel 18 (Switch - SHORT_PRESS 09)
+      description: Action to run when Display Switch is pressed short on Channel 18
+      default: []
+      selector:
+        action: {}
+
+    channel_19_short_press:
+      name: Channel 19 (Switch - SHORT_PRESS 10)
+      description: Action to run when Display Switch is pressed short on Channel 19
+      default: []
+      selector:
+        action: {}
+    channel_20_short_press:
+      name: Channel 20 (Switch - SHORT_PRESS 10)
+      description: Action to run when Display Switch is pressed short on Channel 20
+      default: []
+      selector:
+        action: {}
+
+
+    channel_01_long_press:
+      name: Channel 01 (Switch - LONG_PRESS 01)
+      description: Action to run when Display Switch is pressed long on Channel 01
+      default: []
+      selector:
+        action: {}
+    channel_02_long_press:
+      name: Channel 02 (Switch - LONG_PRESS 01)
+      description: Action to run when Display Switch is pressed long on Channel 02
+      default: []
+      selector:
+        action: {}  
+
+    channel_03_long_press:
+      name: Channel 03 (Switch - LONG_PRESS 02)
+      description: Action to run when Display Switch is pressed long on Channel 03
+      default: []
+      selector:
+        action: {}
+    channel_04_long_press:
+      name: Channel 04 (Switch - LONG_PRESS 02)
+      description: Action to run when Display Switch is pressed long on Channel 04
+      default: []
+      selector:
+        action: {} 
+        
+    channel_05_long_press:
+      name: Channel 05 (Switch - LONG_PRESS 03)
+      description: Action to run when Display Switch is pressed long on Channel 05
+      default: []
+      selector:
+        action: {}
+    channel_06_long_press:
+      name: Channel 06 (Switch - LONG_PRESS 03)
+      description: Action to run when Display Switch is pressed long on Channel 06
+      default: []
+      selector:
+        action: {}        
+
+    channel_07_long_press:
+      name: Channel 07 (Switch - LONG_PRESS 04)
+      description: Action to run when Display Switch is pressed long on Channel 07
+      default: []
+      selector:
+        action: {}
+    channel_08_long_press:
+      name: Channel 08 (Switch - LONG_PRESS 04)
+      description: Action to run when Display Switch is pressed long on Channel 08
+      default: []
+      selector:
+        action: {}
+
+    channel_09_long_press:
+      name: Channel 09 (Switch - LONG_PRESS 05)
+      description: Action to run when Display Switch is pressed long on Channel 09
+      default: []
+      selector:
+        action: {}
+    channel_10_long_press:
+      name: Channel 10 (Switch - LONG_PRESS 05)
+      description: Action to run when Display Switch is pressed long on Channel 10
+      default: []
+      selector:
+        action: {}
+
+    channel_11_long_press:
+      name: Channel 11 (Switch - LONG_PRESS 06)
+      description: Action to run when Display Switch is pressed long on Channel 11
+      default: []
+      selector:
+        action: {}
+    channel_12_long_press:
+      name: Channel 12 (Switch - LONG_PRESS 06)
+      description: Action to run when Display Switch is pressed long on Channel 12
+      default: []
+      selector:
+        action: {}  
+
+    channel_13_long_press:
+      name: Channel 13 (Switch - LONG_PRESS 07)
+      description: Action to run when Display Switch is pressed long on Channel 13
+      default: []
+      selector:
+        action: {}
+    channel_14_long_press:
+      name: Channel 14 (Switch - LONG_PRESS 07)
+      description: Action to run when Display Switch is pressed long on Channel 14
+      default: []
+      selector:
+        action: {} 
+        
+    channel_15_long_press:
+      name: Channel 15 (Switch - LONG_PRESS 08)
+      description: Action to run when Display Switch is pressed long on Channel 15
+      default: []
+      selector:
+        action: {}
+    channel_16_long_press:
+      name: Channel 16 (Switch - LONG_PRESS 08)
+      description: Action to run when Display Switch is pressed long on Channel 16
+      default: []
+      selector:
+        action: {}        
+
+    channel_17_long_press:
+      name: Channel 17 (Switch - LONG_PRESS 09)
+      description: Action to run when Display Switch is pressed long on Channel 17
+      default: []
+      selector:
+        action: {}
+    channel_18_long_press:
+      name: Channel 18 (Switch - LONG_PRESS 09)
+      description: Action to run when Display Switch is pressed long on Channel 18
+      default: []
+      selector:
+        action: {}
+
+    channel_19_long_press:
+      name: Channel 19 (Switch - LONG_PRESS 10)
+      description: Action to run when Display Switch is pressed long on Channel 19
+      default: []
+      selector:
+        action: {}
+    channel_20_long_press:
+      name: Channel 20 (Switch - LONG_PRESS 10)
+      description: Action to run when Display Switch is pressed long on Channel 20
+      default: []
+      selector:
+        action: {}
+
+        
+  source_url: https://dummyurl.com/new
+mode: restart
+max_exceeded: silent  
+    
+trigger:
+  - platform: event
+    event_type: homematic.keypress
+    event_data:
+      name: !input hm_name_string
+
+condition: []
+
+action:
+#  - variables:
+#      command: "{{ trigger.to_state.state }}"
+  - choose:
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 1 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_01_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 2 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_02_short_press'    
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 3 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_03_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 4 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_04_short_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 5 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_05_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 6 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_06_short_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 7 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_07_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 8 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_08_short_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 9 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_09_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 10 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_10_short_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 11 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_11_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 12 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_12_short_press'    
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 13 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_13_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 14 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_14_short_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 15 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_15_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 16 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_16_short_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 17 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_17_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 18 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_18_short_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 19 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_19_short_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 20 and trigger.event.data.param == 'PRESS_SHORT' }}
+        sequence: !input 'channel_20_short_press'  
+
+
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 1 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_01_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 2 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_02_long_press'    
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 3 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_03_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 4 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_04_long_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 5 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_05_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 6 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_06_long_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 7 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_07_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 8 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_08_long_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 9 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_09_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 10 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_10_long_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 11 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_11_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 12 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_12_long_press'    
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 13 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_13_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 14 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_14_long_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 15 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_15_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 16 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_16_long_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 17 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_17_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 18 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_18_long_press'         
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 19 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_19_long_press'
+      - conditions:
+          - condition: template
+            value_template: >-
+              {{ trigger.event.data.channel == 20 and trigger.event.data.param == 'PRESS_LONG' }}
+        sequence: !input 'channel_20_long_press'
+        
