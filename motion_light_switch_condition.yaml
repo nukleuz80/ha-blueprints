@@ -50,7 +50,11 @@ variables:
   light_target: !input 'light_target'
   switch_target: !input 'switch_target'
   command: '{{ trigger.to_state.state }}'
-
+condition:
+  - condition: sun
+    before: sunrise
+    after: sunset
+    enabled: true
 action:
 - choose:
   - conditions: '{{ light_target|length > 0 and switch_target|length > 0 and command=="on"}}'
